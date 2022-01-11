@@ -1,0 +1,1 @@
+https://nickolaskraus.org/articles/creating-a-static-website-using-cloudformation/

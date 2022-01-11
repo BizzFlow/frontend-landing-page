@@ -1,0 +1,117 @@
+OUTPUT = {
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "CertificateManagerCertificate-CREATE_COMPLETE-2022-01-11T14:06:15.667Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "CertificateManagerCertificate",
+            "PhysicalResourceId": "arn:aws:acm:eu-central-1:491406350155:certificate/9583db82-4523-4938-a243-0f054c2d462e",
+            "ResourceType": "AWS::CertificateManager::Certificate",
+            "Timestamp": "2022-01-11T14:06:15.667000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"DomainName\":\"www.bizzflow.link\",\"ValidationMethod\":\"DNS\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "CertificateManagerCertificate-58a143c9-3ca9-4ab1-969a-7d9c8351145e",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "CertificateManagerCertificate",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::CertificateManager::Certificate",
+            "Timestamp": "2022-01-11T14:06:14.579000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Content of DNS Record is: null"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "S3BucketRoot-CREATE_IN_PROGRESS-2022-01-11T14:06:07.004Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "S3BucketRoot",
+            "PhysicalResourceId": "www-bizzflow-click-stack-root",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2022-01-11T14:06:07.004000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"BucketName\":\"www-bizzflow-click-stack-root\",\"LoggingConfiguration\":{\"LogFilePrefix\":\"cdn/\",\"DestinationBucketName\":\"www-bizzflow-click-stack-logs\"},\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"404.html\"},\"AccessControl\":\"PublicRead\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "S3BucketRoot-CREATE_IN_PROGRESS-2022-01-11T14:06:05.460Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "S3BucketRoot",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2022-01-11T14:06:05.460000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"BucketName\":\"www-bizzflow-click-stack-root\",\"LoggingConfiguration\":{\"LogFilePrefix\":\"cdn/\",\"DestinationBucketName\":\"www-bizzflow-click-stack-logs\"},\"WebsiteConfiguration\":{\"IndexDocument\":\"index.html\",\"ErrorDocument\":\"404.html\"},\"AccessControl\":\"PublicRead\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "S3BucketLogs-CREATE_COMPLETE-2022-01-11T14:06:03.845Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "S3BucketLogs",
+            "PhysicalResourceId": "www-bizzflow-click-stack-logs",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2022-01-11T14:06:03.845000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"BucketName\":\"www-bizzflow-click-stack-logs\",\"AccessControl\":\"LogDeliveryWrite\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "S3BucketLogs-CREATE_IN_PROGRESS-2022-01-11T14:05:43.225Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "S3BucketLogs",
+            "PhysicalResourceId": "www-bizzflow-click-stack-logs",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2022-01-11T14:05:43.225000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"BucketName\":\"www-bizzflow-click-stack-logs\",\"AccessControl\":\"LogDeliveryWrite\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "CertificateManagerCertificate-CREATE_IN_PROGRESS-2022-01-11T14:05:42.393Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "CertificateManagerCertificate",
+            "PhysicalResourceId": "arn:aws:acm:eu-central-1:491406350155:certificate/9583db82-4523-4938-a243-0f054c2d462e",
+            "ResourceType": "AWS::CertificateManager::Certificate",
+            "Timestamp": "2022-01-11T14:05:42.393000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"DomainName\":\"www.bizzflow.link\",\"ValidationMethod\":\"DNS\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "S3BucketLogs-CREATE_IN_PROGRESS-2022-01-11T14:05:41.903Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "S3BucketLogs",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2022-01-11T14:05:41.903000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"BucketName\":\"www-bizzflow-click-stack-logs\",\"AccessControl\":\"LogDeliveryWrite\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "CertificateManagerCertificate-CREATE_IN_PROGRESS-2022-01-11T14:05:41.858Z",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "CertificateManagerCertificate",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::CertificateManager::Certificate",
+            "Timestamp": "2022-01-11T14:05:41.858000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"DomainName\":\"www.bizzflow.link\",\"ValidationMethod\":\"DNS\"}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "EventId": "8d8b6f20-72e7-11ec-874b-0a274e9f0eaa",
+            "StackName": "www-bizzflow-click-stack",
+            "LogicalResourceId": "www-bizzflow-click-stack",
+            "PhysicalResourceId": "arn:aws:cloudformation:eu-central-1:491406350155:stack/www-bizzflow-click-stack/8d899a60-72e7-11ec-874b-0a274e9f0eaa",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2022-01-11T14:05:37.965000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}.
